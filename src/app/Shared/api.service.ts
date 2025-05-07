@@ -9,7 +9,7 @@ export class ApiService {
   [x:string]:any;
    
     
-  private url = "http://localhost:5200/posts";
+  private url = "http://localhost:5200/restaurants/posts";
    constructor(private http:HttpClient) { }
    
   //Add Restaurent
